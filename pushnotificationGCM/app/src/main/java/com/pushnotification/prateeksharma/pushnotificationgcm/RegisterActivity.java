@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import static com.androidhive.pushnotifications.CommonUtilities.SENDER_ID;
-import static com.androidhive.pushnotifications.CommonUtilities.SERVER_URL;
+import static com.pushnotification.prateeksharma.pushnotificationgcm.CommonUtilities.SENDER_ID;
+import static com.pushnotification.prateeksharma.pushnotificationgcm.CommonUtilities.SERVER_URL;
 
 public class RegisterActivity extends Activity {
 	// alert dialog manager

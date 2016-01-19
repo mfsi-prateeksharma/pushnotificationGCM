@@ -16,9 +16,9 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Random;
 
-import static com.androidhive.pushnotifications.CommonUtilities.SERVER_URL;
-import static com.androidhive.pushnotifications.CommonUtilities.TAG;
-import static com.androidhive.pushnotifications.CommonUtilities.displayMessage;
+import static com.pushnotification.prateeksharma.pushnotificationgcm.CommonUtilities.SERVER_URL;
+import static com.pushnotification.prateeksharma.pushnotificationgcm.CommonUtilities.TAG;
+import static com.pushnotification.prateeksharma.pushnotificationgcm.CommonUtilities.displayMessage;
 
 
 public final class ServerUtilities {

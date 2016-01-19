@@ -13,9 +13,9 @@ import android.widget.Toast;
 
 import com.google.android.gcm.GCMRegistrar;
 
-import static com.androidhive.pushnotifications.CommonUtilities.DISPLAY_MESSAGE_ACTION;
-import static com.androidhive.pushnotifications.CommonUtilities.EXTRA_MESSAGE;
-import static com.androidhive.pushnotifications.CommonUtilities.SENDER_ID;
+import static com.pushnotification.prateeksharma.pushnotificationgcm.CommonUtilities.DISPLAY_MESSAGE_ACTION;
+import static com.pushnotification.prateeksharma.pushnotificationgcm.CommonUtilities.EXTRA_MESSAGE;
+import static com.pushnotification.prateeksharma.pushnotificationgcm.CommonUtilities.SENDER_ID;
 
 public class MainActivity extends Activity {
 	// label to display gcm messages
@@ -140,7 +140,7 @@ public class MainActivity extends Activity {
 			unregisterReceiver(mHandleMessageReceiver);
 			GCMRegistrar.onDestroy(this);
 		} catch (Exception e) {
-			Log.e("UnRegister Receiver Error", "> " + e.getMessage());
+			Log.e("UnRegister Receiver Err", "> " + e.getMessage());
 		}
 		super.onDestroy();
 	}
