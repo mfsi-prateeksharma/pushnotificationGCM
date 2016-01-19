@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 'Google Inc.:Google APIs:8'
     buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "com.pushnotification.prateeksharma.pushnotificationgcm"
-        minSdkVersion 21
-        targetSdkVersion 23
+        minSdkVersion 8
+        targetSdkVersion 16
         versionCode 1
         versionName "1.0"
     }

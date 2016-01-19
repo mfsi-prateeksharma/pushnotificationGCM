@@ -8,9 +8,9 @@ import android.content.Intent;
 import android.util.Log;
 
 import com.google.android.gcm.GCMBaseIntentService;
+import static com.pushnotification.prateeksharma.pushnotificationgcm.CommonUtilities.SENDER_ID;
 
-import static com.androidhive.pushnotifications.CommonUtilities.SENDER_ID;
-import static com.androidhive.pushnotifications.CommonUtilities.displayMessage;
+import static com.pushnotification.prateeksharma.pushnotificationgcm.CommonUtilities.displayMessage;
 
 public class GCMIntentService extends GCMBaseIntentService {
 
